@@ -66,9 +66,7 @@ footer {
   opacity: 0.6;
   font-size: smaller;
 }
-.city-date {
-  line-height: 24px;
-}
+
 .time {
   font-size: 55px;
   line-height: 55px;
@@ -95,8 +93,8 @@ footer {
   margin-right: 15px;
 }
 
-#cities-dropdown {
-  background-color: rgba(216, 195, 178, 0.8);
+#city {
+  background-color: rgba(233, 214, 199, 0.8);
   height: 30px;
   margin-bottom: 50px;
   padding: 5px 10px;
