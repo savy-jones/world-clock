@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>World Clock - Savana Jones</title>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.js"></script>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -44,23 +47,23 @@
           <option value="tokyo">Tokyo</option>
         </select>
 
-        <div class="city">
+        <div class="city" id="new-york">
           <div class="city-date">
             <h2>New York</h2>
-            <sect class="date">March 3rd 2023</sect>
+            <sect class="date"></sect>
           </div>
-          <sect class="time">10:15 <small>AM</small></sect>
+          <sect class="time"><small></small></sect>
         </div>
 
-        <div class="city">
+        <div class="city" id="paris">
           <div class="city-date">
             <h2>Paris</h2>
-            <sect class="date">March 3rd 2023</sect>
+            <sect class="date"></sect>
           </div>
-          <sect class="time">10:15 <small>AM</small></sect>
+          <sect class="time"><small></small></sect>
         </div>
 
-        <div class="city">
+        <div class="city" id="dubai">
           <div class="city-date">
             <h2>Dubai</h2>
             <sect class="date">March 3rd 2023</sect>
@@ -68,7 +71,7 @@
           <sect class="time">10:15 <small>AM</small></sect>
         </div>
 
-        <div class="city">
+        <div class="city" id="tokyo">
           <div class="city-date">
             <h2>Tokyo</h2>
             <sect class="date">March 3rd 2023</sect>

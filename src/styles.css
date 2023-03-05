@@ -3,7 +3,7 @@ body {
   color: #dacfc6;
   background: radial-gradient(
     circle at center,
-    rgb(62, 52, 46) 45%,
+    rgb(56, 50, 46) 45%,
     rgb(0, 0, 0) 95%
   );
   background-attachment: fixed;
