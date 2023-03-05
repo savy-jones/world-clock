@@ -33,6 +33,10 @@ hr {
   margin-bottom: 42px;
 }
 
+select:focus {
+  outline: #7e6546;
+}
+
 footer {
   text-align: center;
   color: #7d766d;
